@@ -1,0 +1,25 @@
+section{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu, h1 {
+font-family: serif ;
+}
+
+.carrusel { 
+    width: 800px;
+    height: 500px;
+}
+
+body {
+    background-color: mintcream;
+}
+
+p { 
+    text-align: center;
+}

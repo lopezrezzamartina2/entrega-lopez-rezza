@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>locker.rx</title>
+</head>
+<body>
+    <header>
+        <main>
+            <h1>LOCKER.RX</h1>
+    <!-- los siguientes irian en la barra superior derecha con logos, no palabras -->
+        <section>
+        <!-- primero la lupita de busqueda. Debo tener el url para buscar -->
+            <form method="GET">
+                <label for="busqueda"></label>
+                <input type="text" id="busqueda"name="q" placeholder="Buscar productos...">
+                <button type="submit">Buscar productos</button> 
+            </form>
+        <!-- ahora va el wishlist -->
+            <a class="izquierda" href="#">corazon</a>
+        <!-- despues va el carrito -->
+            <a href="carrito/index.html">carrito</a>
+        <!-- ahora vamos con el menu de opciones que va al lado del titulo uno al lado del otro -->
+        </section>
+            <ul class="menu">
+                <li>
+                  <a href="#">SALES</a>
+                </li>
+                <li>
+                  <a href="">NEW IN</a>
+                </li>
+                <li>
+                  <a href="">ROPA</a>
+                  <!-- toda esta subcategoria se va a ver cuando nos posicionemos en la categoria ropa -->
+                    <ul>
+                      <li> <a href="#">VER TODO</a></li>
+                      <li> <a href="#">JUICY COUTURE</a>E</li>
+                      <li> <a href="#">PLAY BOY</a></li>
+                      <li> <a href="#">REALTREE</a></li>
+                      <li> <a href="#">TOPS/REMERAS</a></li>
+                      <li> <a href="#">FALDAS</a></li>
+                      <li> <a href="#">PANTALONES</a></li>
+                      <li> <a href="#">HOODIES/CAMPERAS</a></li>
+                      <li> <a href="#">CONJUNTOS</a></li>
+
+                    </ul>
+                 </li>
+                 <li>
+                  <a href="">BAGS</a>
+                 </li>
+                 <li>
+                  <a href="">JEWELERY</a>
+                </li>
+
+             </ul>
+
+        </main>
+
+    </header>
+
+    <img src="./img/horizontal/_BOK4832.jpg" class="carrusel">
+    <!-- esto van a ser varias imagenes que pasen en forma de carrusel pero por ahora solo dejo una. Ademas el titulo, las categorias y los logos de busqueda, wishlist y carrito van sobre las fotos-->
+
+     <footer>
+
+<!-- aca van a aparecer varios apartados. Creo que quiero que en compu aparezcan todos y en celular de a uno como carrusel. Pero todavia no decido -->
+<!-- WISHLIST: creo que tengo que crear un enlace que me dirija a un enlace absoluto que este dentro del projecto en otra carpeta. html?-->
+       <nav>
+       <p>NUESTROS SERVICIOS</p>
+        <ul class="menu">
+          <li>
+            <a href="#">ENCONTRANOS</a>
+        <ul>
+          <li><a href="#">MAPA</a>
+        </li>
+          <li><a href="#">UBICACION</a>
+        </li>
+          <li><a href="#">DIRECCION</a>
+        </li>
+        </ul>
+          <li><a href="#">WISHLIST</a>
+        </li>
+        <li>
+        <!-- el enlace de abajo iria a un calendario -->  
+            <a href="">RESERVA UN TURNO</a>
+        </li>
+        <li>
+            <a href="#">METODOS DE PAGO</a>
+        </li>
+        <li>
+            <a href="#">ENVIOS Y DEVOLUCIONES</a>
+            <ul>
+                <li> <a href="#">ENVIOS</a></li>
+                <ul>
+                    <li><a href="#">POLITICAS DE ENVIO</a></li>
+                    <li><a href="#">MEDIOS DE ENVIO</a></li>
+                </ul>
+                <li><a href="#">DEVOLUCIONES</a></li>
+                <ul>
+                    <li><a href="#">POLITICAS DE DEVOLUCIONES</a></li>
+                    <li><a href="#">MEDIOS DE DEVOLUCIONES</a></li>
+                </ul>
+            </ul>
+        <li>
+            <a href="">CONTACTANOS</a>
+            <ul>
+                <li> <a href="http://api.whatsapp.com/send?phone=7869785144"> WHATSAPP </a></li>
+            <!-- el siguiente es mail, yo quiero qeu se abra otra pestaña por eso puse target:_blank pero cuando lo toco no funciona-->
+                <li> <a href="mailto:martinalopezrezza8@gmail.com?subject=Consulta&body=Hola! mi nombre es.. y tengo una consulta sobre.." target="_blank">MAIL</a></li>
+            </ul>
+       </nav>
+<!-- aca abajo va a ir la parte donde veo ig, tiktok, wsp con mensaje directo, mail con lo mismo y about us -->
+        <ul>
+            <li> 
+                <a href="https://www.instagram.com/locker.rx?igsh=c3JmM3ZiYTVrdm0y" target="_blank" rel="noopener noreferrer"> instagram</a> </li>
+            <li> 
+                <a href="https://tiktok.com/@locker.rx?_t=ZM-8wiL0EJtgca&_r=1" target="_blank" rel="noopener noreferrer">tiktok</a></li>
+            <li>
+                <a href="http://api.whatsapp.com/send?phone=7869785144"> whatsapp</a>
+            </li>
+            <li> 
+                <a href="about-us/index.html">about us</a>
+            </li>
+     </footer>
+</body>
+</html>
