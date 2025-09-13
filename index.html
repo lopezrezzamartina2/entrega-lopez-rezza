@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
     <title>locker.rx</title>
+
+    <!-- LINK BT -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- LINK CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+
 </head>
 <body>
     <header>
         <main>
             <h1>LOCKER.RX</h1>
     <!-- los siguientes irian en la barra superior derecha con logos, no palabras -->
-        <section>
+        <!-- <section> -->
         <!-- primero la lupita de busqueda. Debo tener el url para buscar -->
-            <form method="GET">
+            <!-- <form method="GET">
                 <label for="busqueda"></label>
                 <input type="text" id="busqueda"name="q" placeholder="Buscar productos...">
                 <button type="submit">Buscar productos</button> 
-            </form>
+            </form> -->
         <!-- ahora va el wishlist -->
-            <a class="izquierda" href="#">corazon</a>
+            <!-- <a class="izquierda" href="#">corazon</a> -->
         <!-- despues va el carrito -->
-            <a href="carrito/index.html">carrito</a>
+            <!-- <a href="carrito/index.html">carrito</a> -->
         <!-- ahora vamos con el menu de opciones que va al lado del titulo uno al lado del otro -->
-        </section>
+        <!-- </section>
             <ul class="menu">
                 <li>
                   <a href="#">SALES</a>
@@ -32,9 +38,9 @@
                   <a href="">NEW IN</a>
                 </li>
                 <li>
-                  <a href="">ROPA</a>
+                  <a href="">ROPA</a> -->
                   <!-- toda esta subcategoria se va a ver cuando nos posicionemos en la categoria ropa -->
-                    <ul>
+                    <!-- <ul>
                       <li> <a href="#">VER TODO</a></li>
                       <li> <a href="#">JUICY COUTURE</a>E</li>
                       <li> <a href="#">PLAY BOY</a></li>
@@ -43,8 +49,8 @@
                       <li> <a href="#">FALDAS</a></li>
                       <li> <a href="#">PANTALONES</a></li>
                       <li> <a href="#">HOODIES/CAMPERAS</a></li>
-                      <li> <a href="#">CONJUNTOS</a></li>
-
+                      <li> <a href="#">CONJUNTOS</a></li> -->
+<!-- 
                     </ul>
                  </li>
                  <li>
@@ -54,7 +60,47 @@
                   <a href="">JEWELERY</a>
                 </li>
 
-             </ul>
+             </ul> -->
+
+             <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">SALES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NEW IN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BAGS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">JEWELERY</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CLOTHING
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">JUICY COUTURE</a></li>
+            <li><a class="dropdown-item" href="#">PLAY BOY</a></li>
+            <li><a class="dropdown-item" href="#">REAL TREE</a></li>
+            <li><a class="dropdown-item" href="#">TOPS/REMERAS</a></li>
+            <li><a class="dropdown-item" href="#">FALDAS</a></li>
+            <li><a class="dropdown-item" href="#">PANTALONES</a></li>
+            <li><a class="dropdown-item" href="#">HOODIES Y CAMPERAS</a></li>
+            <li><a class="dropdown-item" href="#">CONJUNTOS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
         </main>
 
@@ -124,5 +170,9 @@
                 <a href="about-us/index.html">about us</a>
             </li>
      </footer>
+
+     <!-- LINK JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>
