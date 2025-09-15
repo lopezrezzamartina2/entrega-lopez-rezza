@@ -1,18 +1,37 @@
 
 .menu-active:active{
-    background-color: ;
+    background-color: gray ;
 }
+
+.navbar-nav .nav-item{
+    margin: 0 1rem;
+}
+
+.carrusel-foto{
+    width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fotos-carrusel{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
 
 .card-body{
     height: 10rem;
     background-color:transparent;
+    border: none;
+    box-shadow: none;
 }
 /* estilos pantallas pequeñas y medianas */
 @media (max-width: 992px) {
   .carrusel-servicios {
     max-width: 100px;
     margin: 0 auto;
-    background-color: ;
   }
 
 
@@ -57,4 +76,17 @@
     font-size: 0.8rem;
   }
 
+}
+
+/* footer */
+
+footer ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: black;
 }
