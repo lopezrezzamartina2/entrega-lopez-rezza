@@ -7,7 +7,7 @@
     height: 10rem;
     background-color:transparent;
 }
-
+/* estilos pantallas pequeñas y medianas */
 @media (max-width: 992px) {
   .carrusel-servicios {
     max-width: 100px;
@@ -28,3 +28,33 @@
     color: black;
     text-decoration: none;
   }
+}
+/* estilos pantallas lg */
+
+  @media (min-width: 993px) {
+    .servicio-lg {
+        max-width: 100px;
+        text-align: center;
+        
+    }
+    
+.servicio-lg-container{
+    margin-top: -9rem;
+    padding-bottom: 1rem;
+}
+
+
+  .servicio-lg img{
+    width: 100%;
+    max-height: 50px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+
+  .servicio-lg .text-center a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+  }
+
+}
