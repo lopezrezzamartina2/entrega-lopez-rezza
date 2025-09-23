@@ -1,12 +1,25 @@
-
+/* navbar */
 .menu-active:active{
-    background-color: gray ;
+    background-color: #555 ;
 }
 
 .navbar-nav .nav-item{
     margin: 0 1rem;
 }
 
+/* iconos navbar */
+
+.iconos-navbar a {
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.iconos-navbar a:hover {
+  color: #555;
+}
+
+/* carrusel fotos */
 .carrusel-foto{
     width: 100vw;
   height: 100vh;
@@ -20,6 +33,7 @@
     display: block;
 }
 
+/* carrusel nuestros servicios */
 
 .card-body{
     height: 10rem;
