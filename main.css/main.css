@@ -42,7 +42,7 @@
     box-shadow: none;
 }
 /* estilos pantallas pequeñas y medianas */
-@media (max-width: 992px) {
+@media (max-width: 1023px) {
   .carrusel-servicios {
     max-width: 100px;
     margin: 0 auto;
@@ -64,7 +64,7 @@
 }
 /* estilos pantallas lg */
 
-  @media (min-width: 993px) {
+  @media (min-width: 1024px) {
     .servicio-lg {
         max-width: 100px;
         text-align: center;
